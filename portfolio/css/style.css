@@ -135,7 +135,7 @@ h5 {
 	margin:1.67em 0;
 }
 h6 {
-	font-size: 12px;
+	font-size: 25px;
 	margin:2.33em 0;
 }
 abbr[title] {
@@ -559,7 +559,7 @@ table {
 	margin:50px 0 0;
 }
 h1.arrow {
-	font-size: 16px;
+	font-size: 45px;
 	text-transform:uppercase;
 	color:#353535;
 	letter-spacing: 4px;
@@ -594,6 +594,7 @@ h1.arrow span {
 .color-bg .weight-outline-btn {
     color: white;
     border-color: white;
+	border-radius: 50px;
 }
 .color-bg .weight-outline-btn:hover {
   background: #FFF;
@@ -895,6 +896,7 @@ img.grayscale:hover {
 	text-transform:uppercase;
 	font-weight:bold;
 	letter-spacing:1px;
+	
 }
 .weight-outline-btn:hover,.outline-btn:focus {
 	color:#424242;
@@ -908,6 +910,7 @@ ul.social-buttons {
 	list-style:none;
 	margin:0;
 	padding:0;
+	float:left;
 }
 ul.social-buttons li {
 	display:inline-block;
@@ -1011,7 +1014,8 @@ ul.social-buttons li:last-child {
 	color: white;
 	transition: all 0.4s;
 	border-radius: 0;
-	float: right;
+	align-items: center;
+	border-radius: 25px;
 }
 
 .btn-send:hover{
