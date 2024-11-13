@@ -25,7 +25,7 @@
 	Global Styles
 ========================================================================== */
 a {
-	color: #E04343;
+	color: #1a2d42;
 	-webkit-transition:all 0.5s;
 	-moz-transition:all 0.5s;
 	-o-transition:all 0.5s;
@@ -292,27 +292,35 @@ table {
 	background-color:#fff;
 }
 .dark-box {
-	background: #F3F5F8;
-	-webkit-box-shadow: 0px 3px 0px 0px #E04343;
-	-moz-box-shadow: 0px 3px 0px 0px #E04343;
-	box-shadow: 0px 3px 0px 0px #E04343;
-	padding:20px 0;
+	background: #d4d8dd;
+	-webkit-box-shadow: 0px 3px 0px 0px #aab7b7;
+	-moz-box-shadow: 0px 3px 0px 0px #aab7b7;
+	box-shadow: 0px 3px 0px 0px #2e4156;
+	padding:20px;
+	border-radius: 15px;
 }
 .dark-box:hover,.dark-box:focus {
-	-webkit-box-shadow: 0px 3px 0px 0px #FFE801;
-	-moz-box-shadow: 0px 3px 0px 0px #FFE801;
-	box-shadow: 0px 3px 0px 0px #FFE801;
+	-webkit-box-shadow: 0px 3px 0px 0px #1a2d42;
+	-moz-box-shadow: 0px 3px 0px 0px #1a2d42;
+	box-shadow: 0px 3px 0px 0px #1a2d42;
+	background: #c0c8ca;
+	
+	
 }
 .box-hover {
 	transition:all 500ms ease-in-out;
 	-webkit-transition:all 500ms ease-in-out;
 	-moz-transition:all 500ms ease-in-out;
 	-o-transition:all 500ms ease-in-out;
+
 }
 .box-hover:hover,.box-hover:focus {
 	transform:translate(0,-15px);
 	-webkit-transform:translate(0,-15px);
 	-ms-transform:translate(0,-15px);
+}
+.box-hover p:hover{
+	color: white;
 }
 .wrapper {
 	height:650px;
@@ -579,7 +587,7 @@ h1.arrow span {
 	background-size:cover;
 }
 .color-bg {
-	background: #E04343;
+	background: #1A2D42;
 }
 
 .color-bg a {
@@ -593,12 +601,12 @@ h1.arrow span {
 }
 .color-bg .weight-outline-btn {
     color: white;
-    border-color: white;
+    border-color: #c0c8ca;
 	border-radius: 50px;
 }
 .color-bg .weight-outline-btn:hover {
   background: #FFF;
-  color: #E04343;
+  color: #2e4156;
   border-color: rgba(0, 0, 0, 0);
 }
 .about-text {
@@ -607,7 +615,7 @@ h1.arrow span {
 .about-text h1 {
 	text-transform:uppercase;
 	font-size:24px;
-	color: #8C8C8C;
+	color: #D4D8DD;
 }
 .color-bg h1.arrow span {
     color: #FFE800;
@@ -619,6 +627,7 @@ h1.arrow span {
 .services {
 	margin-top:80px;
 	margin-bottom:40px;
+	
 }
 .services .icon {
 	position:relative;
@@ -634,12 +643,12 @@ h1.arrow span {
 	margin-bottom:40px;
 	-webkit-transition:all .3s ease-out;
 	transition:all .3s ease-out;
-	border: 1px solid #E04343;
-	color: #E04343;
+	border: 1px solid #2e4156;
+	color: #2e4156;
 }
 .services .item:hover .icon {
-	background: #E04343;
-	border: 1px solid #E04343;
+	background: #1a2d42;
+	border: 1px solid #1a2d42;
 }
 .services .item [class*=fa] {
 	-webkit-transition:all .3s ease-out;
@@ -871,22 +880,23 @@ img.grayscale:hover {
 }
 /* ==========================================================================CTA========================================================================== */
 .spacer-cta {
-	background-color: #E04343;
+	background-color: #1a2d42;
 	padding:70px 0;
 }
 .outline-btn {
 	display:inline-block;
 	padding:25px 40px;
-	color: #FFE801;
-	border: solid 1px #FFE801;
+	color: #FFFFFF;
+	border: solid 1px #c0c8ca;
 	text-transform:uppercase;
 	font-weight:bold;
 	letter-spacing:1px;
+	border-radius: 50px;
 }
 .outline-btn:hover,.outline-btn:focus {
-	color: #E04343;
-	border: solid 1px #E04343;
-	background: #FFE801;
+	color: #1a2d42;
+	border: solid 1px #d4d8dd;
+	background: #AAB7B7;
 }
 .weight-outline-btn {
 	display:inline-block;
@@ -930,8 +940,9 @@ ul.social-buttons li:last-child {
 	text-align:center;
 }
 .social-btn:hover,.social-btn:focus {
-	background: rgba(255, 232, 0, 1);
+	background:white;
 	color: #E04343;
+	border: solid 1px #E04343;
 }
 .social {
 	margin-top: 25px
@@ -940,10 +951,10 @@ ul.social-buttons li:last-child {
 .up-btn {
 	width:55px;
 	height:55px;
-	background: rgba(255, 232, 1, 0.9);
+	background: #2e4156;
 	display:block;
 	margin:0 auto;
-	color: #E04343;
+	color: #FFFFFF;
 	font-size:18px;
 	line-height:52px;
 	text-align:center;
@@ -955,11 +966,13 @@ ul.social-buttons li:last-child {
 	margin-right:auto;
 }
 .up-btn:hover,up-btn:focus {
-	color: black;
-	background: #FFE800;
+	color: #1a2d42;
+	background: #aab7b7;
 }
+
 .contact-details {
 	margin:70px 0;
+	
 }
 .contact-details h2 {
 	font-size:20px;
@@ -1019,8 +1032,9 @@ ul.social-buttons li:last-child {
 }
 
 .btn-send:hover{
-	background: #FFE800;
-	color: #E04343
+	background:white;
+	color: #E04343;
+	border: solid 1px #E04343;
 }
 
 button,button:focus,button:hover,button:active {
@@ -1028,14 +1042,14 @@ button,button:focus,button:hover,button:active {
 }
 /* ==========================================================================Footer========================================================================== */
 footer a {
-	color:#a1a9b0;
+	color:#c0c8ca;
 }
 footer {
-	background-color:#f3f5f8;
+	background-color:#2e4156;
 	padding:40px 0 30px;
 }
 footer p {
-	color: #808080;
+	color: #d4d8dd;
 }
 /* ==========================================================================FlexSlider Custom CSS========================================================================== */
 #servicesSlider {
