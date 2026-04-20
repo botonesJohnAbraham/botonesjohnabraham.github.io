@@ -1,518 +1,505 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- Website Title -->
-    <title>John Abraham - Professional web developer </title>
-    <!-- Custom Favicon -->
-	<link href="img/ja.png" rel="shortcut icon" type="image/x-icon" />
-   <!---Css--> 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font-Awesome -->
-    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-</head>
-</head>
-<body class="scrooll-smooth">
-    
-    <div class="min-h-lvh bg-white font-sans " >
-        <header class="w-full fixed top-0 left-0 z-10 ">
-            <div class="relative z-20 border-b bg-white " id="home">
-                <div class="px-6 md:px-12 lg:container lg:mx-auto lg:px-6 lg:py-4">
-                  <div class="justify-between p-1">
-                    <div class="flex items-center justify-end lg:border-l-0">
-                      <input type="checkbox" name="hamburger" id="hamburger" class="peer" hidden>
-                      <label for="hamburger" class="peer-checked:hamburger block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden">
-                        <div aria-hidden="true" class="m-auto h-0.5 w-6 rounded bg-sky-900 transition duration-300"></div>
-                        <div aria-hidden="true" class="m-auto mt-2 h-0.5 w-6 rounded bg-sky-900 transition duration-300"></div>
-                      </label>
-        
-                      <div class="peer-checked:translate-x-0 fixed inset-0 w-[calc(100%-4.5rem)] translate-x-[-100%] bg-white border-r shadow-xl transition duration-300 lg:border-r-0 lg:w-auto lg:static lg:shadow-none lg:translate-x-0">
-                        <div class="flex flex-col h-full justify-between lg:items-center lg:flex-row">
-                          <ul class="px-6 pt-32 text-gray-700 space-y-8 md:px-12 lg:space-y-0 lg:flex lg:space-x-12 lg:pt-0">
-                            <li>
-                              <a href="#" class="nav-link group relative px-4 py-2 hover:bg-blue-500 rounded hover:text-white " onclick="setActive(this)">
-                                <span class="relative font-normal">Home</span>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#about" class="nav-link group relative px-4 py-2 hover:bg-blue-500 rounded hover:text-white" onclick="setActive(this)">
-                                <span class="relative ">About</span>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#project" class="nav-link group relative px-4 py-2 hover:bg-blue-500 rounded hover:text-white" onclick="setActive(this)">
-                                <span class="relative ">Project</span>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#contact" class="nav-link group relative px-4 py-2 hover:bg-blue-500 rounded hover:text-white" onclick="setActive(this)">
-                                <span class="relative ">Contact </span>
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div> 
-                </div>                
-            </div>
-          </header>
-        <div>
-         
-          <div class="max-w-7xl mx-auto px-5 my-12" id="home">
-                  <div class="flex md:flex-row flex-col justify-between bg-white items-center gap-4 py-10">                
-                    <div class="p-4 md:p-6 lg:p-8">
-                      <!-- Text and Social Section -->
-                      <div class="relative text-center md:text-left px-2 md:px-4 lg:px-6">
-                          <!-- Name -->
-                          <p class="font-bold text-4xl sm:text-5xl md:text-6xl lg:text-8xl uppercase mb-4 text-color6"
-                             style="text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);">
-                              John Abraham
-                          </p>
-                          
-                          <!-- Text Rotator Section -->
-                          <h3 class="text-xl sm:text-2xl md:text-3xl font-semibold">
-                              <span id="text-rotator">Web Developer</span>
-                          </h3><br>
-                          
-                          <!-- Description -->
-                          <p class="text-base sm:text-lg md:text-xl mb-8 text-justify leading-6 md:leading-7 lg:leading-8 text-gray-500">
-                              I am committed to finding innovative solutions and continuously experimenting to help my clients achieve their goals.
-                          </p>
-                          
-                          <!-- Social Buttons -->
-                          <div class="mt-8 mb-6 flex justify-center md:justify-start gap-3 items-center">
-                              <div class="flex space-x-2">
-                                  <!-- Facebook Icon -->
-                                  <a href="https://www.facebook.com/abraham.ngapala" class="transition duration-300 hover:scale-110">
-                                      <span class="[&>svg]:h-5 sm:[&>svg]:h-6 lg:[&>svg]:h-7 [&>svg]:w-5 sm:[&>svg]:w-6 lg:[&>svg]:w-7 [&>svg]:fill-[#1877f2] group-hover:fill-white">
-                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                              <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
-                                          </svg>
-                                      </span>
-                                  </a>
-                  
-                                  <!-- LinkedIn Icon -->
-                                  <a href="#" class="transition duration-300 hover:scale-110">
-                                      <span class="[&>svg]:h-5 sm:[&>svg]:h-6 lg:[&>svg]:h-7 [&>svg]:w-5 sm:[&>svg]:w-6 lg:[&>svg]:w-7 [&>svg]:fill-[#0077b5] group-hover:fill-white">
-                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                              <path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
-                                          </svg>
-                                      </span>
-                                  </a>
-                  
-                                  <!-- Instagram Icon -->
-                                  <a href="#" class="transition duration-300 hover:scale-110">
-                                      <span class="[&>svg]:h-5 sm:[&>svg]:h-6 lg:[&>svg]:h-7 [&>svg]:w-5 sm:[&>svg]:w-6 lg:[&>svg]:w-7 [&>svg]:fill-[#c13584] group-hover:fill-white">
-                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                              <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-                                          </svg>
-                                      </span>
-                                  </a>
-                  
-                                  <!-- Twitter Icon -->
-                                  <a href="#" class="transition duration-300 hover:scale-110">
-                                      <span class="[&>svg]:h-5 sm:[&>svg]:h-6 lg:[&>svg]:h-7 [&>svg]:w-5 sm:[&>svg]:w-6 lg:[&>svg]:w-7 [&>svg]:fill-[#1da1f2] group-hover:fill-white">
-                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                              <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
-                                          </svg>
-                                      </span>
-                                  </a>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                     
-                      <!-- Image Section -->
-                      <div class="order-first md:order-none overflow-hidden w-full flex justify-center items-center">
-                        <img src="img/John-Abraham-Botones_profile-1-removebg-preview.png" alt="profile picture"
-                             class="w-full max-w-[400px] md:max-w-[600px] lg:max-w-[320px] h-auto object-cover" />
-                    </div>
-                         
-              </div>
-            </div>
-        </div> 
-        
-    <!-- ====================================  Skill ================================ -->
-    <h2 class="text-4xl text-center text-color6 uppercase font-bold tracking-wider">skills</h2>
-        <div class="container mt-8 px-10 py-10 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
-              <div class="bg-white p-6 rounded-lg shadow-2xl w-full flex flex-col cursor-pointer hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
-                  <div class="flex justify-center items-center ">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-16 w-16 text-blue-500">
-                        <path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0 1 18 9.375v9.375a3 3 0 0 0 3-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 0 0-.673-.05A3 3 0 0 0 15 1.5h-1.5a3 3 0 0 0-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6ZM13.5 3A1.5 1.5 0 0 0 12 4.5h4.5A1.5 1.5 0 0 0 15 3h-1.5Z" clip-rule="evenodd" />
-                        <path fill-rule="evenodd" d="M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 0 1 3 20.625V9.375ZM6 12a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V12Zm2.25 0a.75.75 0 0 1 .75-.75h3.75a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1-.75-.75ZM6 15a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V15Zm2.25 0a.75.75 0 0 1 .75-.75h3.75a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1-.75-.75ZM6 18a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V18Zm2.25 0a.75.75 0 0 1 .75-.75h3.75a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
-                      </svg>
-                  </div>
-                      <h2 class="text-xl font-bold mb-2 pt-6 text-color6 uppercase text-center ">Project management</h2>
-              </div>
-                   
-              <div class="bg-white p-6 rounded-lg shadow-2xl w-full flex flex-col cursor-pointer hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
-                  <div class="flex justify-center items-center ">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-16 w-16 text-blue-500">
-                        <path d="M21.721 12.752a9.711 9.711 0 0 0-.945-5.003 12.754 12.754 0 0 1-4.339 2.708 18.991 18.991 0 0 1-.214 4.772 17.165 17.165 0 0 0 5.498-2.477ZM14.634 15.55a17.324 17.324 0 0 0 .332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 0 0 .332 4.647 17.385 17.385 0 0 0 5.268 0ZM9.772 17.119a18.963 18.963 0 0 0 4.456 0A17.182 17.182 0 0 1 12 21.724a17.18 17.18 0 0 1-2.228-4.605ZM7.777 15.23a18.87 18.87 0 0 1-.214-4.774 12.753 12.753 0 0 1-4.34-2.708 9.711 9.711 0 0 0-.944 5.004 17.165 17.165 0 0 0 5.498 2.477ZM21.356 14.752a9.765 9.765 0 0 1-7.478 6.817 18.64 18.64 0 0 0 1.988-4.718 18.627 18.627 0 0 0 5.49-2.098ZM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 0 0 1.988 4.718 9.765 9.765 0 0 1-7.478-6.816ZM13.878 2.43a9.755 9.755 0 0 1 6.116 3.986 11.267 11.267 0 0 1-3.746 2.504 18.63 18.63 0 0 0-2.37-6.49ZM12 2.276a17.152 17.152 0 0 1 2.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0 1 12 2.276ZM10.122 2.43a18.629 18.629 0 0 0-2.37 6.49 11.266 11.266 0 0 1-3.746-2.504 9.754 9.754 0 0 1 6.116-3.985Z" />
-                      </svg>                    
-                  </div>
-                   
-                      <h2 class="text-xl font-bold mb-2 pt-6 text-color6 uppercase text-center ">website development</h2>
-              </div>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Abraham — Portfolio</title>
 
-              <div class="bg-white p-6 rounded-lg shadow-2xl w-full flex flex-col cursor-pointer hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
-                  <div class="flex justify-center items-center ">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-16 w-16 text-blue-500">
-                        <path fill-rule="evenodd" d="M2.25 5.25a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3V15a3 3 0 0 1-3 3h-3v.257c0 .597.237 1.17.659 1.591l.621.622a.75.75 0 0 1-.53 1.28h-9a.75.75 0 0 1-.53-1.28l.621-.622a2.25 2.25 0 0 0 .659-1.59V18h-3a3 3 0 0 1-3-3V5.25Zm1.5 0v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5Z" clip-rule="evenodd" />
-                      </svg>                  
-                  </div>
-                  <h2 class="text-xl font-bold mb-2 pt-6 text-color6 uppercase text-center">Backend Developer</h2>
-              </div>
-            
-              <div class="bg-white p-6 rounded-lg shadow-2xl w-full flex flex-col cursor-pointer hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
-                  <div class="flex justify-center items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-16 w-16 text-blue-500">
-                      <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z" clip-rule="evenodd" />
-                    </svg>
-                                       
-                  </div>
-                  <h2 class="text-xl font-bold mb-2 pt-6 text-color6 uppercase text-center">seo specialist</h2>
-              </div>
-          
-              <div class="bg-white p-6 rounded-lg shadow-2xl w-full flex flex-col cursor-pointer hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
-                  <div class="flex justify-center items-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-16 w-16 text-blue-500">
-                        <path d="M21 6.375c0 2.692-4.03 4.875-9 4.875S3 9.067 3 6.375 7.03 1.5 12 1.5s9 2.183 9 4.875Z" />
-                        <path d="M12 12.75c2.685 0 5.19-.586 7.078-1.609a8.283 8.283 0 0 0 1.897-1.384c.016.121.025.244.025.368C21 12.817 16.97 15 12 15s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.285 8.285 0 0 0 1.897 1.384C6.809 12.164 9.315 12.75 12 12.75Z" />
-                        <path d="M12 16.5c2.685 0 5.19-.586 7.078-1.609a8.282 8.282 0 0 0 1.897-1.384c.016.121.025.244.025.368 0 2.692-4.03 4.875-9 4.875s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.284 8.284 0 0 0 1.897 1.384C6.809 15.914 9.315 16.5 12 16.5Z" />
-                        <path d="M12 20.25c2.685 0 5.19-.586 7.078-1.609a8.282 8.282 0 0 0 1.897-1.384c.016.121.025.244.025.368 0 2.692-4.03 4.875-9 4.875s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.284 8.284 0 0 0 1.897 1.384C6.809 19.664 9.315 20.25 12 20.25Z" />
-                      </svg>                    
-                  </div>
-                    <h2 class="text-xl font-bold mb-2 pt-6 text-color6 uppercase text-center">data analyst</h2>
-              </div>
+  <!-- ============================================================
+       FONTS: Playfair Display (headings) + DM Sans (body)
+       Loaded from Google Fonts — requires internet connection
+       ============================================================ -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
 
-        </div>  
+  <!-- Your stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       GRAIN OVERLAY — pure CSS texture, sits over everything
+       Defined as a pseudo-element in style.css (body::before)
+       ============================================================ -->
+
+  <!-- ============================================================
+       NAVBAR
+       Add/remove <li> links as needed.
+       "nav-cta" class styles the Hire Me button differently.
+       ============================================================ -->
+  <nav>
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">John<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+      </ul>
     </div>
-              
-  
-<!--================================= ABOUT ============================-->
-<section class="min-h-screen h-auto bg-color7 relative pt-24 py-20" id="about" >
-      <h2 class="text-4xl text-center uppercase font-bold text-color6 tracking-wider pt-3">
-          I do amazing things for clients
-      </h2>
-      <div class="container mt-12 px-10 mx-auto grid md:grid-cols-3 gap-8">
-          <!-- Skill 1 -->
-          <div class="bg-white p-6 rounded-lg shadow-lg w-full flex flex-col " >
-              <figure class="h-48 w-full overflow-hidden rounded-md">
-                  <img src="img/photography.png" alt="photography" class="h-full w-full object-cover" />
-              </figure>
-              <h2 class="text-xl font-bold mb-2 pt-6 text-color6 uppercase">Photography</h2>
-              <p class="text-gray-700 mb-4">
-                  It is my hobby to capture things, and sometimes I think of pursuing my hobby as my professional job.
-                  Maybe someday it will happen—who knows? I'm still learning.
-              </p>
-              <div class="mt-auto flex justify-start">
-                  <button class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300" onclick="window.location.href='https://www.facebook.com/KaAbbyTv';">
-                      Learn More
-                  </button>
-              </div>
-          </div>
-
-          <!-- Skill 2 -->
-          <div class="bg-white p-6 rounded-lg shadow-lg w-full flex flex-col"  >
-              <figure class="h-48 w-full overflow-hidden rounded-md">
-                  <img src="img/system.png" alt="web developer" class="h-full w-full object-cover" />
-              </figure>
-              <h2 class="text-xl font-bold mb-2 pt-6 text-color6 uppercase">Web Developer</h2>
-              <p class="text-gray-700 mb-4">
-                  I don't just develop systems; I put my effort and heart into them to create absolute art.
-                  <br>• Meet Clients’ Needs
-		  <br>• Create Outstanding Websites
-		
-
-              </p>
-              <div class="mt-auto flex justify-start">
-                  <button class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300" onclick="window.location.href='#project';">
-                      View Projects
-                  </button>
-              </div>
-          </div>
-
-          <!-- Skill 3 -->
-          <div class="bg-white p-6 rounded-lg shadow-lg w-full flex flex-col" >
-              <figure class="h-48 w-full overflow-hidden rounded-md">
-                  <img src="https://i.pinimg.com/1200x/e9/b9/a0/e9b9a09c972bb2d4f21fe635d306d11e.jpg" alt="project manager" class="h-full w-full object-cover" />
-              </figure>
-              <h2 class="text-xl font-bold mb-2 pt-6 text-color6 uppercase">Project Manager</h2>
-              <p class="text-gray-700 mb-4">
-                  Skilled in coordinating tasks, managing resources, and meeting deadlines to ensure successful project delivery.
-              </p>
-              <div class="mt-auto flex justify-start">
-                  <button class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300" onclick="window.location.href='https://www.facebook.com/abraham.ngapala'">
-                      Contact Me
-                  </button>
-              </div>
-          </div>
-      </div>
-</section>
+  </nav>
 
 
-<!--============================== Project =========================-->
-<section class="min-h-lvh bg-color1 relative pt-24 py-28 " id="project">
-          <h2 class="text-4xl text-center text-white uppercase font-bold tracking-wider">Project</h2>
-          <div class="container mt-8 px-10 py-20 mx-auto grid md:grid-cols-2 gap-8">
-            <!-- Project 1 -->
-            <div class="bg-white p-6 rounded-lg shadow-lg w-full flex flex-col">           
-                    <img src="img/project1.JPG" alt="photography" class="h-full w-full object-cover" />          
-                <h2 class="text-xl font-bold mb-2 pt-6 text-color6 uppercase">The Media Reviews landing page</h2>
-                <p class="text-gray-700 mb-4">
-                 WE CREATE DISTINCTION A symbiotic relationship of authors and readers, a narrative of words and phrases – seemingly robust and placid.
-                </p>
-                <div class="mt-auto flex justify-start">
-                  <!--<a href="https://www.themediareviews.com/" class="text-blue-500 font-semibold hover:underline">Demo
-                    <li class="fa fa-arrow-right"></li>
-                  </a> -->
-                </div>
-            </div>
+  <!-- ============================================================
+       HERO SECTION
+       - .hero-orb divs are decorative glowing blobs (CSS only)
+       - #role-text is updated by script.js (role rotator)
+       - Update name, bio, and social href values below
+       ============================================================ -->
+  <section id="home">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
 
-            <!-- Project 2 -->
-            <div class="bg-white p-6 rounded-lg shadow-lg w-full flex flex-col">             
-                    <img src="img/project2.JPG" alt="web developer" class="h-full w-full object-cover" />               
-                <h2 class="text-xl font-bold mb-2 pt-6 text-color6 uppercase">The Regency Publishers landing page</h2>
-                <p class="text-gray-700 mb-4">
-                  The Regency Publishers are a leading assisted and self-publishing service provider in the US, with nearly a thousand signed-up clients.
-                </p>
-                <div class="mt-auto flex justify-start">
-                  <a href="https://www.theregencypublishers.com/" class="text-blue-500 font-semibold hover:underline">Demo
-                    <li class="fa fa-arrow-right"></li>
-                  </a>
-                </div>
-            </div>
-            
+    <div class="container">
+      <div class="hero-content">
+
+        <!-- Availability badge with pulsing dot -->
+        <div class="hero-eyebrow">
+          <div class="hero-dot"></div>
+          Available for freelance work
         </div>
-</section>
 
-<!--============================== Contact =========================-->
+        <!-- Name — the blue underline accent is a CSS ::after on <span> -->
+        <h1 class="hero-name">
+          John <span>Abraham</span>
+        </h1>
 
-    <!-- Contact Us Section -->
-<section class="min-h-screen h-auto bg-color7 relative py-12 pt-24 " id="contact">
-  <div class="container mx-auto px-6 ">
-        <p class="text-2xl font-semibold text-center justify-center text-blue-500">Contact With Me</p>
-      <h2 class="text-4xl text-center font-bold text-color6 mb-10 pb-8 ">Have an Project in Mind?</h2>
+        <!-- Role text — rotated by script.js. Edit the roles array in script.js -->
+        <div class="hero-role">
+          I'm a <span id="role-text">Web Developer</span>
+        </div>
 
-      <!-- Grid Layout: Map on the left, Form on the right -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          
-          <!-- Google Map -->
-          <div class="w-full h-80 bg-gray-300 rounded-lg overflow-hidden">
-              <iframe class="w-full h-full"
-              src="https://maps.google.com/maps?width=541&height=309&hl=en&q=3JHF+3VR,%20Apacible%20Blvd,%20Nasugbu,%20Batangas%20batangas+()&t=k&z=18&ie=UTF8&iwloc=B&output=embed"
-                  style="border:0;" allowfullscreen="" loading="lazy"></iframe>           
+        <!-- Short bio — edit this -->
+        <p class="hero-desc">
+          Committed to finding innovative solutions and continuously experimenting
+          to help clients achieve their goals. I build experiences, not just websites.
+        </p>
+
+        <!-- CTA buttons -->
+        <div class="hero-ctas">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-ghost">Get in Touch</a>
+        </div>
+
+        <!-- Social icons — update each href with your real profile URL -->
+        <div class="hero-socials">
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/abraham.ngapala" class="social-icon" title="Facebook">
+            <svg width="16" height="16" viewBox="0 0 320 512" fill="currentColor">
+              <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/>
+            </svg>
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/botonesjohnabraham/" class="social-icon" title="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 448 512" fill="currentColor">
+              <path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/>
+            </svg>
+          </a>
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/sir_eyb/" class="social-icon" title="Instagram">
+            <svg width="16" height="16" viewBox="0 0 448 512" fill="currentColor">
+              <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+            </svg>
+          </a>
+          <!-- GitHub -->
+          <a href="https://github.com/botonesJohnAbraham/" class="social-icon" title="GitHub">
+            <svg width="16" height="16" viewBox="0 0 496 512" fill="currentColor">
+              <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8z"/>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SKILLS STRIP
+       Add or remove .skill-card blocks to change your skill list.
+       Swap the emoji with an <img> or inline SVG for tech logos.
+       ============================================================ -->
+  <div class="skills-strip">
+    <div class="container">
+      <div class="skills-grid">
+        <div class="skill-card fade-in">
+          <div class="skill-icon">🗂️</div>
+          <div class="skill-name">Project Mgmt</div>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">🌐</div>
+          <div class="skill-name">Web Dev</div>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">⚙️</div>
+          <div class="skill-name">Backend Dev</div>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">🔍</div>
+          <div class="skill-name">SEO Specialist</div>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">📊</div>
+          <div class="skill-name">Data Analyst</div>
+        </div>
+        <!-- ADD MORE SKILLS: copy a .skill-card block above and paste here -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ============================================================
+       ABOUT SECTION
+       Left col: bio text + stat boxes
+       Right col: "what I do" service cards
+       ============================================================ -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- LEFT: bio + stats -->
+        <div>
+          <p class="section-label">About me</p>
+          <h2 class="section-title">I build things people love to use</h2>
+          <div class="divider"></div>
+
+          <!-- Edit this bio paragraph -->
+          <p class="about-bio">
+            Based in Nasugbu, Batangas, Philippines — I'm a web developer and
+            project manager passionate about crafting digital experiences that
+            genuinely work for clients.
+          </p>
+          <p class="about-bio">
+            I don't just build systems — I put my effort and heart into creating
+            meaningful products. Photography is my creative outlet, reminding me
+            to always look for the right angle.
+          </p>
+
+          <!-- Stats — update numbers as needed -->
+          <div class="about-stats">
+            <div class="stat-box">
+              <div class="stat-num">2+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-num">10+</div>
+              <div class="stat-label">Projects Done</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-num">100%</div>
+              <div class="stat-label">Client Focus</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-num">∞</div>
+              <div class="stat-label">Coffee Consumed</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: service cards — add more .about-card blocks as needed -->
+        <div class="about-cards">
+          <div class="about-card fade-in">
+            <div class="about-card-icon">📸</div>
+            <div>
+              <h4>Photography</h4>
+              <p>Capturing moments is my hobby — and sometimes I think of turning
+              it into a profession. Still learning, loving every shot.</p>
+            </div>
+          </div>
+          <div class="about-card fade-in">
+            <div class="about-card-icon">💻</div>
+            <div>
+              <h4>Web Development</h4>
+              <p>Meeting client needs and creating outstanding websites — I put
+              heart and effort into every project, treating each one as a work
+              of art.</p>
+            </div>
+          </div>
+          <div class="about-card fade-in">
+            <div class="about-card-icon">🗂️</div>
+            <div>
+              <h4>Project Management</h4>
+              <p>Skilled at coordinating tasks, managing resources, and meeting
+              deadlines to deliver successful, on-budget results.</p>
+            </div>
+          </div>
+          <!-- ADD MORE SERVICE CARDS HERE — copy an .about-card block above -->
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PROJECTS SECTION
+       HOW TO ADD A NEW PROJECT:
+         1. Copy any .project-card block below
+         2. Paste it inside .projects-grid
+         3. Replace the emoji div with: <img src="img/yourimage.jpg" alt="..." class="project-img">
+         4. Update title, description, tags, and links
+
+       FEATURED PROJECT: add class "featured" to a .project-card
+       to make it span the full row width (horizontal layout).
+       ============================================================ -->
+  <section id="projects">
+    <div class="container">
+      <div class="projects-header">
+        <div>
+          <p class="section-label">Portfolio</p>
+          <h2 class="section-title">Selected Work</h2>
+        </div>
+        <!-- Filter tabs — cosmetic by default. See script.js to enable real filtering -->
+        <div class="filter-tabs">
+          <button class="filter-tab active" data-filter="all">All</button>
+          <button class="filter-tab" data-filter="landing">Landing Pages</button>
+          <button class="filter-tab" data-filter="webapp">Web Apps</button>
+          <button class="filter-tab" data-filter="seo">SEO</button>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- ======================================================
+             FEATURED PROJECT — spans full width (horizontal layout)
+             Add class="featured" to make any card full-width
+             ====================================================== -->
+        <div class="project-card featured fade-in" data-category="landing seo">
+          <!-- Replace this placeholder div with your real screenshot:
+               <img src="img/project1.jpg" alt="The Media Reviews" class="project-img"> -->
+          <div class="project-img project-img-placeholder">🌐</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Landing Page</span>
+              <span class="tag">WordPress</span>
+              <span class="tag">SEO</span>
+            </div>
+            <h3 class="project-title">The Media Reviews</h3>
+            <p class="project-desc">
+              A symbiotic relationship of authors and readers — a narrative of words
+              and phrases. Built a distinction-driven landing page with custom
+              typography, dynamic content sections, and optimised for search
+              engines from day one.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">↗ Live Demo</a>
+              <a href="#" class="project-link secondary">GitHub →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======================================================
+             STANDARD PROJECT CARD #2
+             ====================================================== -->
+        <div class="project-card fade-in" data-category="landing">
+          <!-- <img src="img/project2.jpg" alt="Regency Publishers" class="project-img"> -->
+          <div class="project-img project-img-placeholder">📖</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Landing Page</span>
+              <span class="tag">Publishing</span>
+            </div>
+            <h3 class="project-title">The Regency Publishers</h3>
+            <p class="project-desc">
+              Leading assisted and self-publishing service provider in the US,
+              with nearly a thousand signed-up clients. Built their public-facing
+              landing page.
+            </p>
+            <div class="project-links">
+              <a href="https://www.theregencypublishers.com/" class="project-link">↗ Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======================================================
+             TEMPLATE CARD #3 — replace content with your project
+             ====================================================== -->
+        <div class="project-card fade-in" data-category="webapp">
+          <!-- <img src="img/project3.jpg" alt="Project Name" class="project-img"> -->
+          <div class="project-img project-img-placeholder">🛒</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <!-- Change these tags to match your tech stack -->
+              <span class="tag">E-Commerce</span>
+              <span class="tag">React</span>
+            </div>
+            <!-- Replace with your project title -->
+            <h3 class="project-title">Project Title Here</h3>
+            <!-- Replace with your project description (2–3 sentences) -->
+            <p class="project-desc">
+              Short description of what this project is, who it's for, and
+              what you built. Keep it concise and result-focused.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">↗ Live Demo</a>
+              <a href="#" class="project-link secondary">GitHub →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======================================================
+             TEMPLATE CARD #4 — copy-paste to add more projects
+             ====================================================== -->
+        <div class="project-card fade-in" data-category="webapp">
+          <!-- <img src="img/project4.jpg" alt="Project Name" class="project-img"> -->
+          <div class="project-img project-img-placeholder">📊</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Dashboard</span>
+              <span class="tag">Data</span>
+            </div>
+            <h3 class="project-title">Analytics Dashboard</h3>
+            <p class="project-desc">
+              Template card — replace with your real project. Describe what
+              problem it solved and what technologies you used.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">↗ Live Demo</a>
+              <a href="#" class="project-link secondary">GitHub →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ADD MORE PROJECT CARDS HERE -->
+        <!-- Copy any .project-card block above and paste it here  -->
+
+      </div><!-- /.projects-grid -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONTACT SECTION
+       Left: contact details (update email, phone, location)
+       Right: contact form with service dropdown
+       ============================================================ -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-heading">
+        <p class="section-label">Say Hello</p>
+        <h2 class="section-title">Have a project in mind?</h2>
+        <div class="divider" style="margin: 1rem auto 0;"></div>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- LEFT: contact info cards -->
+        <div class="contact-info">
+          <p class="contact-intro">
+            I'm always open to discussing new projects, creative ideas, or
+            opportunities to be part of your vision. Drop me a message!
+          </p>
+
+          <!-- Update each value below with your real contact info -->
+          <div class="contact-item">
+            <div class="contact-item-icon">✉️</div>
+            <div>
+              <div class="contact-item-label">Email</div>
+              <div class="contact-item-val">botonesjohnabraham@gmail.com</div>
+            </div>
           </div>
 
-          <!-- Contact Form -->
-          <div class="bg-white p-6 rounded-lg shadow-lg">
-              <h3 class="text-2xl font-semibold text-gray-800 mb-4">Get in Touch</h3>
-              <form action="#" method="POST">
-                  <!-- Name Field -->
-                  <div class="mb-4">
-                      <label for="name" class="block text-gray-700 font-medium">Full Name</label>
-                      <input type="text" id="name" name="name" class="w-full mt-2 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
-                  </div>
-
-                  <!-- Email Field -->
-                  <div class="mb-4">
-                      <label for="email" class="block text-gray-700 font-medium">Email Address</label>
-                      <input type="email" id="email" name="email" class="w-full mt-2 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
-                  </div>
-
-                  <!-- Message Field -->
-                  <div class="mb-4">
-                      <label for="message" class="block text-gray-700 font-medium">Message</label>
-                      <textarea id="message" name="message" rows="4" class="w-full mt-2 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
-                  </div>
-
-                  <!-- Submit Button -->
-                  <button type="submit" class="w-full bg-blue-500 text-white font-semibold py-3 rounded-lg hover:bg-blue-600 transition duration-300">
-                      Send Message
-                  </button>
-              </form>
-              <!-- Social Media Icons -->
-              <div class="flex justify-center mt-8 space-x-6">
-                <!-- Facebook Icon -->
-                <a href="https://www.facebook.com/abraham.ngapala" class="transition duration-300 hover:scale-150">
-                    <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#1877f2] group-hover:fill-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                            <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
-                        </svg>
-                    </span>
-                </a>
-                
-                <!-- LinkedIn Icon -->
-                <a href="#" class="transition duration-300 hover:scale-150">
-                    <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#0077b5] group-hover:fill-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                            <path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
-                        </svg>
-                    </span>
-                </a>
-            
-                <!-- Instagram Icon -->
-                <a href="#" class="transition duration-300 hover:scale-150">
-                    <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#c13584] group-hover:fill-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                            <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-                        </svg>
-                    </span>
-                </a>
-            
-                <!-- Twitter Icon -->
-                <a href="#" class="transition duration-300 hover:scale-150">
-                    <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#1da1f2] group-hover:fill-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
-                        </svg>
-                    </span>
-                </a>
-            </div>            
+          <div class="contact-item">
+            <div class="contact-item-icon">📱</div>
+            <div>
+              <div class="contact-item-label">Phone</div>
+              <div class="contact-item-val">+63 993 513 8416</div>
+            </div>
           </div>
-      </div>
-  </div>
-</section>
 
-            
-  <!--=================================== Footer ============================ -->
-
-<footer class="bg-gray-800 text-white py-12">
-  <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 p-5">
-      <!-- Section 1: About -->
-      <div>
-          <h3 class="text-lg font-semibold mb-4">About</h3>
-          <p class="text-gray-400">Provider of web development services, delivering custom solutions for businesses of all sizes.</p>
-      </div>
-
-      <!-- Section 2: Links -->
-      <div>
-          <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
-          <ul>
-              <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
-              <li><a href="#about" class="text-gray-400 hover:text-white transition duration-300">About</a></li>
-              <li><a href="#project" class="text-gray-400 hover:text-white transition duration-300">Project</a></li>
-              <li><a href="#contact" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
-          </ul>
-      </div>
-
-      <!-- Section 3: Contact -->
-      <div>
-          <h3 class="text-lg font-semibold mb-4">Contact</h3>
-          <p class="text-gray-400">Apacible Blvd Nasugbu, Batangas, Philippines</p>
-          <p class="text-gray-400">Email: botonesjohnabraham@gmail.com</p>
-          <p class="text-gray-400">Phone: +63993 - 513 - 8416</p>
-      </div>
-
-      <!-- Section 4: Social Media -->
-      <div>
-          <h3 class="text-lg font-semibold mb-4">Follow me</h3>
-          <div class="flex space-x-4">
-              <a href="https://www.facebook.com/botonesjohnabraham" class="text-gray-400 hover:text-white transition duration-300">Facebook</a>
-              <a href="#" class="text-gray-400 hover:text-white transition duration-300">Twitter</a>
-              <a href="https://www.instagram.com/sir_eyb/" class="text-gray-400 hover:text-white transition duration-300">Instagram</a>
-              <a href="https://www.linkedin.com/in/botonesjohnabraham/" class="text-gray-400 hover:text-white transition duration-300">LinkedIn</a>
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div>
+              <div class="contact-item-label">Location</div>
+              <div class="contact-item-val">Apacible Blvd, Nasugbu, Batangas, PH</div>
+            </div>
           </div>
+        </div>
+
+        <!-- RIGHT: contact form -->
+        <div class="contact-form">
+          <form action="#" method="POST">
+
+            <!-- Name + Email side by side on wider screens -->
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Juan Dela Cruz" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="juan@example.com" required>
+              </div>
+            </div>
+
+            <!-- Service selector — add/remove <option> as needed -->
+            <div class="form-group">
+              <label for="service">What do you need?</label>
+              <select id="service" name="service">
+                <option value="">Select a service…</option>
+                <option>Website Development</option>
+                <option>Project Management</option>
+                <option>SEO / Marketing</option>
+                <option>Data Analysis</option>
+                <option>Photography</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5"
+                placeholder="Tell me about your project…" required></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">Send Message →</button>
+          </form>
+        </div>
+
       </div>
-  </div>
-  
-  <div class="text-center mt-8">
-      <p class="text-gray-400 text-sm "> All rights reserved. © 2024 <a href="https://github.com/botonesJohnAbraham/" class="text-gray-400 hover:text-white transition duration-300">John Abraham Botones.</a></p>
-  </div>
-</footer>
+    </div>
+  </section>
 
 
-<!-- ====================================  Config Tailwind CSS ================================ -->
-    <script>
-            tailwind.config = {
-              theme: {
-                extend: {
-                  colors: {
-                    color1: '#1a2d42',
-                    color2: '#2e4156',
-                    color3: '#aab7b7',
-                    color4: '#dc0c8ca',
-                    color5: '#d4d8dd',
-                    color6:"rgb(9 14 52)",
-                    color7:'rgb(248 249 255)',
-                  }
-                }
-              }
-            }     
-      </script>
-      
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <script>
-        AOS.init();
-    </script>
+  <!-- ============================================================
+       FOOTER
+       Simple two-column: copyright left, social icons right
+       ============================================================ -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-copy">
+          © 2024
+          <a href="https://github.com/botonesJohnAbraham/">John Abraham Botones</a>.
+          All rights reserved.
+        </p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/botonesjohnabraham" class="social-icon" title="Facebook">
+            <svg width="14" height="14" viewBox="0 0 320 512" fill="currentColor">
+              <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/sir_eyb/" class="social-icon" title="Instagram">
+            <svg width="14" height="14" viewBox="0 0 448 512" fill="currentColor">
+              <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/botonesjohnabraham/" class="social-icon" title="LinkedIn">
+            <svg width="14" height="14" viewBox="0 0 448 512" fill="currentColor">
+              <path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/>
+            </svg>
+          </a>
+          <a href="https://github.com/botonesJohnAbraham/" class="social-icon" title="GitHub">
+            <svg width="14" height="14" viewBox="0 0 496 512" fill="currentColor">
+              <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-   <!-- ====================================  Scrolling JS ================================ -->   
-      <script>
-        $(document).ready(function(){
-               // Smooth scrolling
-            $("a").on('click', function(event) {
-                if (this.hash !== "") {
-                    event.preventDefault();
-                    var hash = this.hash;
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 1000, function() {
-                        window.location.hash = hash;
-                    });
-                }
-            });
-         });        
-      </script>
-
-<!-- ====================================  Active Navbar JS ================================ -->
-      <script>
-              function setActive(link) {
-                // Remove the active class from all links
-                let links = document.querySelectorAll('.nav-link');
-                links.forEach((link) => {
-                  link.classList.remove('bg-blue-500', 'text-white');
-                  link.classList.add('text-red');
-                });
-
-                // Add the active class to the clicked link
-                link.classList.add('bg-blue-500', 'text-white');
-              }
-      </script>
-
-<!-- ====================================  Rotating JS ================================ -->
-         <script>
-              // Texts to rotate
-              const texts = ["Web Developer", "Project Management", "Freelancer"];
-              let index = 0;
-
-              // Function to rotate text
-              function rotateText() {
-                index = (index + 1) % texts.length;
-                document.getElementById("text-rotator").textContent = texts[index];
-              }
-
-              // Set interval to rotate every 2 seconds
-              setInterval(rotateText, 2000);
-        </script>
-
-<!-- ====================================  Style ================================ -->
-        <style>
-                @keyframes fade {
-                0%, 100% { opacity: 0; }
-                50% { opacity: 1; }
-              }
-
-              #text-rotator {
-                animation: fade 2s ease-in-out infinite;
-                color:rgb(74 108 247);
-              }
-        </style>
+  <!-- Your JavaScript file -->
+  <script src="script.js"></script>
 </body>
 </html>
