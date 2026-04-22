@@ -22,7 +22,7 @@
     "Project Manager",
     "SEO Specialist",
     "Freelancer",
-    "Photographer"
+    "Software Engineer"
   ];
 
   let currentIndex = 0;
