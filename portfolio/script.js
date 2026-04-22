@@ -206,3 +206,9 @@
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();  // run once on load
 })();
+
+document.querySelectorAll('a[href="Unavailable"]').forEach(link => {
+  link.classList.add('unavailable');
+  link.setAttribute('data-tooltip', 'Not available right now');
+  link.removeAttribute('href');
+});

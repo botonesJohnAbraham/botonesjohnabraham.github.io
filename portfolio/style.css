@@ -24,13 +24,13 @@
    Change these values to retheme the entire site instantly.
    ================================================================ */
 :root {
-  --bg:       #0a0b0f;              /* page background — near-black       */
-  --surface:  #111218;              /* cards, panels, form background      */
-  --border:   rgba(255,255,255,0.07); /* subtle border colour              */
-  --accent:   #5b7fff;              /* primary accent — electric blue      */
+  --bg:       #ffffff;              /* page background — near-black       */
+  --surface:  #d5d6da;              /* cards, panels, form background      */
+  --border:   rgba(255, 255, 255, 0.178); /* subtle border colour              */
+  --accent:   #314691;              /* primary accent — electric blue      */
   --accent2:  #ff6b6b;              /* secondary accent — coral (optional) */
-  --text:     #e8eaf0;              /* main body text                      */
-  --muted:    #6b7280;              /* secondary / caption text            */
+  --text:     #0f0f0f;              /* main body text                      */
+  --muted:    #0f0f0f;              /* secondary / caption text            */
 
   /* Typography stacks */
   --font-heading: 'Playfair Display', serif;
@@ -220,7 +220,7 @@ nav {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
-  background: rgba(10, 11, 15, 0.85);
+  background: rgba(170, 170, 172, 0.85);
 }
 
 .nav-inner {
@@ -700,6 +700,39 @@ nav {
 
 .project-link.secondary { color: var(--muted); }
 
+.project-link.unavailable {
+  opacity: 0.5;
+  cursor: not-allowed;
+  position: relative;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.project-link.unavailable:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 140%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #222;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+/* Tooltip arrow */
+.project-link.unavailable:hover::before {
+  content: "";
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: #222;
+}
 
 /* ================================================================
    11. CONTACT SECTION
