@@ -18,10 +18,8 @@
 (function initRoleRotator() {
   // ↓ Edit this array to change the rotating roles
   const roles = [
-    "Web Developer",
+    "Website Developer",
     "Project Manager",
-    "SEO Specialist",
-    "Freelancer",
     "Software Engineer"
   ];
 
